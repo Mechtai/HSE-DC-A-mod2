@@ -49,6 +49,16 @@ h1 + p + p {
   margin-bottom: 33px;
 }
 
+h1 + p, h1 + blockquote {
+  margin-top: 14px;
+  font-family: 'PT Sans Caption', sans-serif;
+  font-size: 22px;
+  line-height: 32px;
+  color: rgba(0, 0, 0, 0.4);
+}
+h1 + p + p, h1 + blockquote + blockquote, h1 + p + blockquote, h1 + blockquote + p {
+  margin-top: 30px;
+}
 h2 {
   font-size: 26px;
 }
