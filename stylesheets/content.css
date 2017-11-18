@@ -106,8 +106,24 @@ p {
   margin-bottom: 33px;
 }
 
+blockquote{
+  position: relative;
+  font-style: italic;
+}
+
+blockquote::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  height: 100%;
+  display: block;
+  left: -20px;
+  width: 3px;
+  height: 100%;
+  background: black;
+}
 blockquote {
-  border-left: 10px solid #ccc;
+
   margin: 1.5em 10px;
   padding: 0.5em 10px;
   quotes: "\201C""\201D""\2018""\2019";
